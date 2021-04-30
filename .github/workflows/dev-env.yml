@@ -53,4 +53,4 @@ jobs:
       - name: curl
         uses: wei/curl@v1
         with:
-          args: http://bookinfo.dev.opsta.net/student23/ratings/health | grep "Ratings is working"
+          args: http://bookinfo.dev.opsta.net/student23/ratings/health
