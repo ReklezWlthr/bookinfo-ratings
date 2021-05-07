@@ -37,7 +37,7 @@ jobs:
               }
             }
   acceptance-test:
-    needs: deploy-ord
+    needs: deploy-prd
     runs-on: ubuntu-20.04
     steps:
       - name: Acceptance Test via curl and grep
